@@ -130,3 +130,12 @@ td:hover {background-color:gray;}
 #p5{
     text-shadow: 0px 0px 5px tomato;
 }
+#p6{
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px tomato;
+    font-size: 50px;
+}
+#p7{
+    color:black;
+    margin: auto;
+}
