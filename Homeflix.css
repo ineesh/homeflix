@@ -3,6 +3,7 @@ body{
     color: aliceblue;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 
 }
 #img1{
@@ -44,11 +45,12 @@ p{
     color: red;
     border: solid 6px;
     animation-name:examp; 
-    animation-duration:5s;
+    animation-duration:3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 #para2{
+    box-shadow: 0px 0px 10px tomato;
     text-align: center;
     margin: auto;
     font-size: 100px;
@@ -67,7 +69,7 @@ p{
     padding: 20px;
 
 }
-table,td{
+table,td,th{
     table-layout: fixed;
     border-color: tomato;
     box-shadow: 0px 0px 10px tomato;
@@ -78,6 +80,20 @@ table,td{
     padding: 5px;
 }
 td:hover {background-color:gray;}
+
+#table3{
+    font-family: 'Russo One', sans-serif;
+    margin-left: 250px;
+    padding: 15px;
+    margin-right: auto;
+    margin: 10px;
+    transform: translateX(250px);
+    text-shadow: 0px 0xp 5px tomato;
+}
+#table4{
+    
+    padding: 25px;
+}
 
 #p3{
     
@@ -96,10 +112,21 @@ td:hover {background-color:gray;}
     background-repeat: repeat;
     animation: examp2 10s linear infinite;
 }
-
+#img46{
+    left: 0;
+    right: 0;
+    transform: translate(400px,405px);
+    position: absolute;
+    height: 240px;
+    width: 380px;
+    background-repeat: repeat;
+    animation: examp2 10s linear infinite;
+}
 @keyframes examp{
     0% {text-shadow: 0px 0px 50px tomato};
     25% {text-shadow: 0px 0px 2px tomato};
     100% {text-shadow: 0px 0px 50px tomato};
 }
-
+#p5{
+    text-shadow: 0px 0px 5px tomato;
+}
