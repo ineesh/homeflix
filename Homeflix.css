@@ -59,6 +59,7 @@ p{
     border: solid 6px;
 }
 #para3{
+    position: relative;
     text-align: center;
     margin-top: 80px;
     margin-left: 620px;
@@ -138,4 +139,15 @@ td:hover {background-color:gray;}
 #p7{
     color:black;
     margin: auto;
+}
+#button1{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px tomato;
+}
+#p11{
+    padding: 20px;
+    box-shadow: 0px 0px 10px tomato;
+    border: 5px solid red;
 }
